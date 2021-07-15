@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #2d3436;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #3e9bdd;
+  background: black;
   color: #fff;
 }
 
@@ -143,7 +143,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #16507b;
+  font-weight: 400;
+  color: black;
 }
 
 #header .logo img {
@@ -179,12 +180,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a, .navbar a:focus {
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 14px;
-  color: #16507b;
+  color: gray;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -196,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #2487ce;
+  color: black;
 }
 
 .navbar .getstarted {
@@ -1672,7 +1674,7 @@ section {
 
 .contact .php-email-form button[type="submit"] {
   
-  background-color: #636e72;
+  background-color: #2d3436;
   border: 0;
   padding: 10px 30px;
   color: white;
@@ -1794,7 +1796,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #124265;
+  color: #444444;
   position: relative;
   padding-bottom: 12px;
 }
